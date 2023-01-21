@@ -2,7 +2,7 @@ node('master')
 {
     stage('Continuous Download_launch') 
 	{
-    git 'https://github.com/sunildevops77/Jenkins_multiBranch24.git'
+    git 'https://github.com/Arnold-Tebid/sunil-multi-branch.git'
 	}
     stage('Continuous Build_launch') 
 	{
